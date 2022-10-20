@@ -13,14 +13,14 @@ public class TestdemoTest {
      } 
      @Test 
      public void testBye() { 
-          assertEquals("Bye world", testdemo.plus("Bye", "world")); 
+          assertEquals("Bye world", testdemo.plus("Bye ", "world")); 
      } 
      @Test 
      public void testGood() { 
-          assertEquals("Good world", testdemo.plus("Good",  "world")); 
+          assertEquals("Good world", testdemo.plus("Good ",  "world")); 
      } 
      @Test 
      public void testBad() { 
-          assertEquals("Bad world", testdemo.plus("Bad", "world")); 
+          assertEquals("Bad world", testdemo.plus("Bad ", "world")); 
      } 
 } 
